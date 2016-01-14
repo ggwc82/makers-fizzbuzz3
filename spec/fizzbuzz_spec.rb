@@ -19,7 +19,10 @@ describe "fizzbuzz" do
 		end
 	end
 
-
-
+	it "returns number when number is not divisible by 5 or 3" do
+		[2, 7, 61, 98, 44].each do |x|
+			expect(fizzbuzz(x)).to eq x
+		end
+	end
 end
 
