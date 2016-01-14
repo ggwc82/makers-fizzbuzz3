@@ -13,5 +13,13 @@ describe "fizzbuzz" do
 		end
 	end
 
+	[5, 10, 20, 85, 95].each do |x|
+		it "returns 'buzz' when num is divisible by 5" do
+			expect(fizzbuzz(x)).to eq 'buzz'
+		end
+	end
+
+
+
 end
 
